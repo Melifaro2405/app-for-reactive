@@ -1,7 +1,6 @@
 import React from "react";
 
 import './AboutApp.css';
-import {Link} from "react-router-dom";
 
 const AboutApp = () => {
   return (
@@ -30,7 +29,7 @@ const AboutApp = () => {
         </div>
       </div>
       <p>Ссылка на GitHub (исходный код приложения):</p>
-      <a href='https://github.com/Melifaro2405/app-for-reactive' target='_blank'>
+      <a href='https://github.com/Melifaro2405/app-for-reactive' target='_blank' rel="noreferrer">
         <i className="fa fa-github-square about-app__github"/>
       </a>
     </section>
