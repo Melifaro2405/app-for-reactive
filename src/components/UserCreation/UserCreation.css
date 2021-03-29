@@ -1,0 +1,31 @@
+.creation-user {
+    background-color: lightgray;
+    height: 100vh;
+    width: 40%;
+    padding-top: 50px;
+}
+
+.creation-user__wrapper {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    min-height: 200px;
+    padding: 30px;
+    text-align: center;
+}
+
+.creation-user__wrapper h3 {
+    margin-top: 0;
+}
+
+.creation-user__wrapper label {
+    margin-bottom: 10px;
+}
+
+.creation-user__wrapper input {
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 15px;
+}
+
