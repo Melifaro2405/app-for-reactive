@@ -1,0 +1,45 @@
+.about-app {
+    margin-top: 20px;
+    text-align: center;
+    color: #565656;
+}
+
+.about-app h2 {
+    margin-bottom: 20px;
+}
+
+.about-app p {
+    font-size: 1.3em;
+}
+
+.about-app__description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-app__description span {
+    margin-bottom: 5px;
+}
+
+.about-app__description--technologies {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-app__description--functional {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin-bottom: 30px;
+}
+
+.about-app__github {
+    font-size: 4em;
+    color: #565656;
+    transition: 0.3s;
+}
+
+.about-app__github:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

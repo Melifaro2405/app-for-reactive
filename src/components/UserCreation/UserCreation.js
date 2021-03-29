@@ -49,14 +49,9 @@ const UserCreation = () => {
             name='creationUserNickname'
             placeholder='Введите username'
             value={nickname}
-
           />
         </label>
-
-        <button
-          type='submit'
-          className='btn'
-        >
+        <button type='submit' className='btn'>
           Создать
         </button>
     </form>

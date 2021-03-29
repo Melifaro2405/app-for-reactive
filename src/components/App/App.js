@@ -3,21 +3,18 @@ import {Route, Switch} from "react-router-dom";
 import UserList from "../UserList/UsersList";
 import Header from "../Header/Header";
 import UserPosts from "../UserPosts/UserPosts";
+import AboutApp from "../AboutApp/AboutApp";
 
 function App() {
   return (
     <div>
       <Header/>
       <Switch>
-        <Route path={'/list'} exact component={UserList}/>
+        <Route path={'/list'} exact component={UserList} />
         <Route path={'/posts/:id'} exact render={({match}) => {
           return <UserPosts id={match.params.id} />
         }} />
-        <Route path={'/about'} render={() => (
-          <p style={{textAlign: "center", fontSize: 30}}>
-            Версия приложения 1.0.42
-          </p>)
-        }/>
+        <Route path={'/about'} component={AboutApp} />
       </Switch>
     </div>
   );

@@ -1,6 +1,5 @@
 .user-posts {
     background-color: lightgray;
-    min-height: 100vh;
     padding: 30px 0;
 }
 
@@ -30,8 +29,8 @@
 }
 
 .user-posts__list-item span {
-    max-width: 30%;
-    font-size: 20px;
+    max-width: 25%;
+    font-size: 16px;
 }
 
 .user-posts__list-item p {
