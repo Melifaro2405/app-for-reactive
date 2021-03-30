@@ -8,25 +8,29 @@
     margin-bottom: 20px;
 }
 
-.about-app p {
-    font-size: 1.3em;
-}
-
 .about-app__description {
     display: flex;
     justify-content: space-around;
 }
 
-.about-app__description span {
+.about-app__description h3 {
+    font-size: 1.4rem;
+}
+
+.about-app__description ul {
+    list-style: none;
+}
+
+.about-app__description li {
     margin-bottom: 5px;
 }
 
-.about-app__description--technologies {
+.about-app__description--technologies-list {
     display: flex;
     flex-direction: column;
 }
 
-.about-app__description--functional {
+.about-app__description--functional-list {
     display: flex;
     flex-direction: column;
     max-width: 60%;
